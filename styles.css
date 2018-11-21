@@ -1,11 +1,8 @@
-ul.nav li {
+li {
 background-color: red;
 display: inline;
 padding: 0px 10px 0px 10px;
-}
-
-ul li a {
-  color: white;
+font-family: fantasy;
 }
 
 
@@ -34,4 +31,30 @@ ul li a {
 .important {
   font-weight: bold;
 }
-}
+
+header {
+     text-align: center;
+     color: white;
+   }
+   a {
+     color: white;
+
+   li {
+     display: inline;
+     padding: 0px 10px 0px 10px;
+   }
+   article {
+     max-width: 500px;
+     padding: 20px;
+     margin: 0 auto;
+   }
+   @media (max-width: 500px) {
+     h1 {
+       font-size: 36px;
+       padding: 5px;
+     }
+     li {
+       padding: 5px;
+       display: block;
+     }
+   }
